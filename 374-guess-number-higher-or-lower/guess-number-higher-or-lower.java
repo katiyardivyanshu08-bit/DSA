@@ -9,11 +9,11 @@
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
-        int low=1;
-        int high=n;
+        int st=1;
+        int end=n;
 
-        while(low<=high) {
-            int mid=low+(high-low)/2;
+        while(st<=end) {
+            int mid=st+(end-st)/2;
 
             int result=guess(mid);
 
@@ -21,10 +21,10 @@ public class Solution extends GuessGame {
                 return mid;
             }
             else if(result==1) {
-                low=mid+1;
+                st=mid+1;
             }
             else {
-                high=mid-1;
+                end=mid-1;
             }
         }
 
