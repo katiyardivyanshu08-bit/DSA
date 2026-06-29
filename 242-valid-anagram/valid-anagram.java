@@ -7,17 +7,17 @@ class Solution {
         int [] arr1 = new int[26];
         int [] arr2 = new int[26];
 
-        for(int i =0 ; i<n1 ; i++){     // now here n1=n2
-            arr1[s.charAt(i)-'a']++;
-            arr2[t.charAt(i)-'a']++;
-        }
-
-        //  for(int i =0 ; i<n1 ; i++){
+        // for(int i =0 ; i<n1 ; i++){     // now here n1=n2
         //     arr1[s.charAt(i)-'a']++;
-        // }
-        // for(int i =0 ; i<n2 ; i++){
         //     arr2[t.charAt(i)-'a']++;
         // }
+
+         for(int i =0 ; i<n1 ; i++){
+            arr1[s.charAt(i)-'a']++;
+        }
+        for(int i =0 ; i<n2 ; i++){
+            arr2[t.charAt(i)-'a']++;
+        }
        
         for(int i = 0 ; i<26 ; i++){
             if(arr1[i]!=arr2[i]){      //if(arr1==arr2) it check his address
