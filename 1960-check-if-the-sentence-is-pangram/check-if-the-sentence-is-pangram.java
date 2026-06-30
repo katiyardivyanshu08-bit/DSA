@@ -1,7 +1,7 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
         int n = sentence.length();
-        // if(n<26) return false ;
+        if(n<26) return false ;
         sentence=sentence.toLowerCase();
         int [] freq =new int[26];
         for(int i=0 ; i<n ; i++){
