@@ -2,7 +2,7 @@ class Solution {
     public boolean checkIfPangram(String sentence) {
         int n = sentence.length();
         if(n<26) return false ;
-        // sentence=sentence.toLowerCase();
+        // sentence=sentence.toLowerCase(); //we only check 1 to 26 is any zero or not thats why not doing lower
         int [] freq =new int[26];
         for(int i=0 ; i<n ; i++){
             freq[sentence.charAt(i)-'a']++;
