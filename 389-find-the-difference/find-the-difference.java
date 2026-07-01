@@ -10,6 +10,7 @@ class Solution {
         for(int i=0 ; i<n2 ; i++){
             sum2+=t.charAt(i);
         }
+        // t is greater
         return (char)(sum2-sum1);
     }
 }
