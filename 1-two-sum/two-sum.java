@@ -12,5 +12,16 @@ class Solution {
         }
       }  
       return arr;
+
+        // if ans in true and false
+    //     Arrays.sort(nums); //O(nlogn) 
+    //     int i=0 ,j=n-1;
+    //     while(i<j){
+    //         if(nums[i]+nums[j]==target) return true
+    //         else if (nums[i]+nums[j]>target) j--;
+    //         else i++;
+            
+    //     }
+    //   return false;
     }
 }
