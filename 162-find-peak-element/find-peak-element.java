@@ -3,7 +3,6 @@ class Solution {
     int n = nums.length;
     int st = 1;
     int end = n-2;
-    int i = 0;
     if (n==1) return 0;
     if(nums[0]>nums[1]) return 0;
     if(nums[n-1]>nums[n-2]) return n-1;
