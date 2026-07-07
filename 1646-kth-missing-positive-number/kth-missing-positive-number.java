@@ -10,7 +10,7 @@ class Solution {
             if(k==0) return num;
             num++;
         }
-        return num-1;
+        return -1;
     }
 
 }
