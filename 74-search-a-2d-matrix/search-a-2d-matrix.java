@@ -11,6 +11,7 @@ class Solution {
             else if(matrix[midRow][midCol]>target) hi = mid - 1;
             else lo = mid + 1;
         }
+        
         //or
         // for(int i =0 ; i<r ; i++ ){
         //     for(int j =0 ; j<c; j++){
