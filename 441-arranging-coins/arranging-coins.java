@@ -11,7 +11,7 @@ class Solution {
         return (int) end ;
      }
     public int arrangeCoins(int n) {
-        long m=  n;
+        long m= n;                        // long m = (long) n
         return (mySqrt(8*m+1)-1)/2;
     }
 }
