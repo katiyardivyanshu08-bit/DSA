@@ -1,5 +1,5 @@
 class Solution {
-    public void genrate(int n,int l,int r,String s,List<String> ans ){
+    public static void genrate(int n,int l,int r,String s,List<String> ans ){
         if(r==n){
             ans.add(s);
             return;
