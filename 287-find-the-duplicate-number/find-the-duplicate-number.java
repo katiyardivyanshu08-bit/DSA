@@ -5,17 +5,16 @@ class Solution {
         while(i<n){
             int correct=nums[i]-1;
 
-            if(nums[i]!=i+1){
-                if(nums[i]!=nums[correct]){
-                    int temp=nums[i];
-                    nums[i]=nums[correct];
-                    nums[correct]=temp;
-                }
-                else return nums[i];
+            if(nums[i]!=nums[correct]){
+                int temp=nums[i];
+                nums[i]=nums[correct];
+                nums[correct]=temp;
             }
-            else i++;
+            else{
+                if(i!=correct) return nums[i];
+                i++;
+            }
         }
-
         //tle
         // for(int i=0; i<n ; i++){
         //     int count =0;
