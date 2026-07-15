@@ -1,7 +1,7 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        // int n = nums.length+1; 
-        // int sum =(n*(n-1))/2;
+        // int n = nums.length+1;    // if array from 1 and nums.length if array from 0
+        // int sum =(n*(n-1))/2;     //n-1 and (n*(n+1))/2 => use for n
         // int m =0;
 
         // for(int i : nums) m+=i;
