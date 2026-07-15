@@ -5,6 +5,8 @@ class Solution {
     for(int i=1;i<nums.length;i++){
         if(nums[i]!=nums[i-1]) nums[j++]=nums[i];
     }
+    // int[] ans=new int[j];
+    // for(int i=0;i<j;i++) ans[i]=arr[i];
 
     return j;
         
