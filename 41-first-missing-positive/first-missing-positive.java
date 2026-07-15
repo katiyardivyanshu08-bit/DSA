@@ -8,6 +8,7 @@ class Solution {
     public int firstMissingPositive(int[] nums) {
         int i = 0, n = nums.length; // 1 to n
         while(i<n){
+            // dry run => {9 -4 3 1 7 3 0}
             if(nums[i]<=0) i++;
             else if(nums[i]>n) i++;
             else if(nums[i]==i+1) i++; // already at correct place
