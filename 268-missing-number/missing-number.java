@@ -28,4 +28,23 @@ class Solution {
         nums[i] = nums[idx];
         nums[idx] = temp;
     }
+
+    // 1 to n
+    // int n=nums.length;
+    // int i=0;
+
+    // while(i<n){
+    //     if(nums[i]==i+1) i++;
+    //     else{
+    //         int idx=nums[i]-1;
+    //         if(nums[i]!=nums[idx]) swap(nums,i,idx);
+    //         else i++;
+    //     }
+    // }
+
+    // for(i=0;i<n;i++){
+    //     if(nums[i]!=i+1) return i+1;
+    // }
+    // return n+1;
+
 }
