@@ -11,7 +11,7 @@ class Solution {
                 nums[correct]=temp;
             }
             else{
-                if(i!=correct) return nums[i];
+                if(i!=correct) return nums[i];   // single return thatwhy here
                 i++;
             }
         }
