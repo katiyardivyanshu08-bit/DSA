@@ -12,7 +12,7 @@ class Solution {
         //     else i++;
         // }
         Arrays.sort(nums);
-        for(int x : nums) System.out.print(x+" ");
+        // for(int x : nums) System.out.print(x+" ");
         for(int j=0 ; j<n-1 ; j++){
             if(nums[j]==nums[j+1]) return nums[j];
         }
